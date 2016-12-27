@@ -33,7 +33,7 @@ public class CountingSort {
         }
         
         for(int i=0; i <arr.length; i++){
-            output[count[arr[i]]-1] = arr[i];
+            output[count[arr[i]]] = arr[i];
             count[arr[i]]--;
         }
         
